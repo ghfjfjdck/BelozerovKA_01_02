@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Belozerov01_02</string>
+    <string name="geom">Геометрические фигуры</string>
+    <string name="start">Начать</string>
+    <string name="startbut">Начать</string>
+    <string name="geomfigures">Геометрические фигуры</string>
+    <string name="enter1">Введите данные для расчета</string>
+    <string name="enter2">Введите данные для расчета</string>
+    <string name="enterbut">Выполнить расчет</string>
+    <string name="onstartgo">В начало</string>
+    <string name="rez">Результат</string>
+    <string name="name">Название выбранной фигуры</string>
+    <string name="rezcalculate">Результат вычисления</string>
+</resources>

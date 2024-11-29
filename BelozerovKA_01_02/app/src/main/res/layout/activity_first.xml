@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".FirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/geom"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/imageView"
+            android:layout_width="296dp"
+            android:layout_height="296dp"
+            android:src="@drawable/geometry" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="329dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button"
+            android:onClick="nextekr"
+            android:text="@string/startbut"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
